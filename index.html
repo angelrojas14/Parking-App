@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Parking App</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Iceberg&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap" rel="stylesheet">   
+        <link rel="icon" href="../Imagenes/LogoPestana.png">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/904994b1bc.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <header class="header">
+            <img class="logoNav" src="../Imagenes/LogoParkingAppWeb.png" alt="Logo Parking App">
+                      
+            <nav class="listaNav">
+                <a href="#inicio">Inicio</a>
+                <a href="#sobreNosotros">Sobre Nosotros</a>
+                <a href="#prototipoFuncional">Prototipo Funcional</a>
+                <a href="#contacto">Contacto</a>
+                <a href="#desarrollador">Desarrollador</a>
+            </nav>       
+        </header> <hr class="hrHeader">
+
+        <main>
+            <section class="contenedorBanner" id="inicio">
+                <div>
+                    <img class="imgBannerIzq" src="../Imagenes/telefonoParkingApp1.png" alt="Imagen de un teléfono con el logo de Parking App 1">
+                </div>
+
+                <div class="contenedorImgDer">
+                    <img class="imgBannerDer" src="../Imagenes/LogoParkingAppWeb.png" alt="Logo Parking App">
+                    <br><br>
+                    <img class="imagenGooglePlay" src="../Imagenes/GooglePlay.png" alt="Logo google play">
+                </div>
+            </section>
+
+            <section class="sobreNosotros" id="sobreNosotros">
+                <div class="sobreNosotros__titulo">
+                    <h1>Parking App</h1>
+                </div>
+
+                <div class="sobreNosotros__parrafo">
+                    <p>Parking App es una aplicación móvil que te permite reservar lugares disponibles en estacionamientos incluso antes de salir de tu casa para que de esta forma tengas tu lugar asegurado y no pierdas tiempo buscando de lugar en lugar.</p> <br>
+
+                    <p>Esto ayuda a reducir el tiempo de búsqueda y así poder estar  a tiempo donde quiera que vayas.</p> <br>
+
+                    <p>¡Con Parking App llegar tarde a esa reunión importante es cosa del pasado, deja que te acompañemos y olvídate del reloj!</p>
+                </div>
+
+                <div>
+                    <img class="wireframes" src="../Imagenes/Wireframes1.png" alt="Imagenes de teléfonos con app de Parking App">
+
+                    <img class="wireframes" src="../Imagenes/Wireframes2.png" alt="Imagenes de teléfonos con app de Parking App">
+                </div>
+
+                <div class="descargarApp">
+                    <p>Si todavia no tienes la App de Parking App, descargala aquí </p>
+                    <img class="imagenGooglePlay1" src="../Imagenes/GooglePlay.png" alt="Logo google play">
+                </div>
+            </section>
+
+            <section class="prototipoFuncional" id="prototipoFuncional">
+                <h2 class="prototipoFuncional__titulo">Prueba Nuestro Prototipo Funcional</h2>
+
+                <p>Para una mejor experiencia ver en pantalla completa.</p>
+
+                <iframe class="prototipoFuncional__iframe" style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="600" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FU1gQB45ErTyHULXUyUPrlj%2FParking-App%3Fpage-id%3D12%253A19882%26node-id%3D568%253A4732%26viewport%3D237%252C189%252C0.08%26scaling%3Dscale-down%26starting-point-node-id%3D568%253A4732" allowfullscreen></iframe>
+            </section>
+
+            <section class="contacto" id="contacto">
+                <h2 class="contacto__titulo">Contáctanos</h2>
+
+                <div class="contacto__formulario-desarrollador">
+                    
+                    <div class="formularioDeContacto">
+                        <h2 class="formularioDeContacto__titulo">Formulario de contacto</h2>
+                        <p class="formularioDeContacto__p">Si tienes alguna consulta, sugerencia o  inquietud puedes realizarla en el siguiente formulario y te daremos una respuesta lo más pronto posible. </p>
+
+                        <form class="formularioDeContacto__inputs" action="https://formspree.io/f/xgeqpzzd" method="POST">
+
+                            <input class="inputs errorInputs" type="text" id="nombre" required placeholder="Nombre *" name="name">
+
+                            <input class="inputs errorInputs" type="email" id="correoelectronico" required placeholder="E-mail *" name="email">
+
+                            <input class="inputs" type="text" id="asunto" placeholder="Asunto" name="asunto">
+
+                            <textarea class="inputs errorInputs" cols="70" rows="7" id="mensaje" required placeholder="Escribe tu mensaje *" name="message"></textarea>
+
+                            <label class="formularioDeContacto__checkbox"><input class="check" type="checkbox" required> He leído y acepto la política de privacidad</label>
+
+                            <input class="btnEnviar" type="submit" value="Enviar">
+                        </form>
+                    </div>
+                    
+                    <h2 class="desarrollador__titulo" id="desarrollador">Desarrollador</h2>
+
+                    <div class="informacionDesarrollador">
+                        <h2 class="informacionDesarrollador__titulo">Información del Desarrollador</h2>
+                        <div class="informacionDesarrollador__Datos">
+                            <ul class="informacionDesarrollador__lista">
+                                <div>
+                                    <li class="lista-items"><i class="fa-solid fa-user lista-iconos"></i>Nombre y Apellido</li>
+                                    <p class="lista-items__p">Angel Rojas</p>
+                                </div>
+                                <div>
+                                    <li class="lista-items"><i class="fa-solid fa-envelope lista-iconos"></i>E-mail</li>
+                                    <p class="lista-items__p">angelrojasdeveloper@gmail.com</p>
+                                </div>
+                                <div>
+                                    <li class="lista-items"><i class="fa-solid fa-earth-americas lista-iconos"></i>Ubicación</li>
+                                    <p class="lista-items__p">Ciudad Autónoma de Buenos Aires - Argentina</p>
+                                </div>
+                                <div>
+                                    <li class="lista-items"><i class="fa-solid fa-globe lista-iconos"></i>Sitio Web</li>
+                                    <p class="lista-items__p sitioWeb">https://www.angelrojasdeveloper.com/</p>
+                                </div>
+                                <div>
+                                    <li class="lista-items"><i class="fa-solid fa-user-shield lista-iconos"></i>Política de Privacidad</li>
+                                    <p class="lista-items__p politica">https://www.angelrojasdeveloper.com/legal/privacy-policy</p>
+                                </div>
+
+                                <div class="redesSociales">
+                                    <a href="https://www.linkedin.com/in/angel-rojas-software-tester-qa-programacion-web-front-end" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                            
+                                    <a href="https://github.com/AngelRojasDev" target="_blank"><i class="fa-brands fa-github"></i></a>
+                            
+                                    <a href="https://www.behance.net/gallery/139492969/Parking-App" target="_blank"><i class="fa-brands fa-behance"></i></i></a>
+                            
+                                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            
+                                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                                </div>
+                                
+                                <div class="verMas">
+                                    <a href="../PresentacionPersonal/presentacionPersonal.html" target="_blank"><input class="btnVerMas" type="submit" value="Ver Más"></a>
+                                </div>  
+                            </ul>
+                        </div>
+                    </div>
+                </div>  
+            </section>
+            
+            <div>
+                <img class="collage" src="../Imagenes/CollageFooter.png" alt="Collage Parking App">
+            </div>
+        </main>
+
+        <footer>
+            <div class="copyright">
+                <p>&copy Copyright 2022 - Desarrollado por Angel Rojas</p>
+            </div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>

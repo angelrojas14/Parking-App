@@ -1,0 +1,437 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Header*/
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  width: 100%;
+  height: 4rem;
+  position: fixed;
+  z-index: 1000;
+  font-family: 'Poppins', sans-serif;
+}
+
+.logoNav {
+  height: 2rem;
+  margin-left: 5rem;
+}
+
+.listaNav {
+  display: flex;
+  justify-content: space-evenly;
+  width: 60%;
+  margin-right: 2rem;
+}
+
+.listaNav a {
+  text-decoration: none;
+  color: #4F565A;
+  font-weight: 500;
+}
+
+.listaNav a:hover {
+  color: #FFB81C;
+}
+
+.hrHeader {
+  background-color: #FFB81C;
+  border: none;
+  padding-top: 4.5rem;
+}
+
+/*ENLACES DE LA BARRA DE NAVEGACION*/
+#inicio {
+  scroll-margin-top: 4.5rem;
+}
+
+#sobreNosotros {
+  scroll-margin-top: 4rem;
+}
+
+#prototipoFuncional {
+  scroll-margin-top: 3.9rem;
+}
+
+#contacto {
+  scroll-margin-top: 4rem;
+}
+
+#desarrollador {
+  scroll-margin-top: 5rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*MAIN*/
+
+/*Inicio Banner*/
+.contenedorBanner {
+  background-image: url(../Imagenes/FondoCalle1.png);
+  background-size: cover;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 90vh;
+}
+
+.imgBannerIzq {
+  height: 80vh;
+  padding: 0 10%;
+}
+
+.contenedorImgDer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imgBannerDer {
+  width: 90%;
+}
+
+.imagenGooglePlay {
+  width: 30%;
+  opacity: 85%;
+  cursor: pointer;
+}
+
+.imagenGooglePlay:hover {
+  opacity: 95%;
+}
+
+/*Sobre Nosotros*/
+.sobreNosotros {
+  background-color: #FFB81C;
+  height: auto;
+  color: #4F565A;
+}
+
+.sobreNosotros__titulo {
+  font-family: 'Iceberg', cursive;
+  font-size: 2.5rem;
+  text-align: center;
+  padding: 2% 0;
+}
+
+.sobreNosotros__parrafo {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  display: block;
+  margin: auto;
+  width: 55%;
+  padding-bottom: 2%;
+  text-align: left;
+}
+
+.wireframes {
+  display: block;
+  margin: auto;
+  width: 60%;
+}
+
+.descargarApp {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  width: 55%;
+  margin-top: 2%;
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+.imagenGooglePlay1 {
+  margin-top: 2%;
+  cursor: pointer;
+  width: 25%;
+  opacity: 93%;
+}
+
+.imagenGooglePlay1:hover {
+  opacity: 99%;
+}
+
+/*Prototipo*/
+.prototipoFuncional {
+  background-color: #FFB81C;
+}
+
+.prototipoFuncional__titulo {
+  font-family: 'Iceberg', cursive;
+  color: #4F565A;
+  font-size: 3rem;
+  text-align: center;
+  padding: 3% 0 1% 0;
+}
+
+.prototipoFuncional p {
+  color: #000000;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 1%;
+}
+
+.prototipoFuncional__iframe {
+  width: 70%;
+  display: block;
+  margin: auto;
+}
+
+/* CONTACTO */
+
+/*Section Contacto Titulo*/
+.contacto__titulo {
+  font-family: 'Iceberg', cursive;
+  font-size: 3rem;
+  text-align: center;
+  background-color: #FFB81C;
+  padding: 3% 0 2% 0;
+  color: #4F565A;
+}
+
+/*Contacto e Informacion del Desarrollador*/
+.contacto__formulario-desarrollador {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FFB81C;
+}
+
+/*Formulario de Contacto*/
+.formularioDeContacto {
+  width: 50%;
+  background-color: #D7D7D7;
+  border: 2px solid #4F565A;
+  border-radius: 10px;
+  margin-bottom: 2%;
+  box-shadow: 0px 3px 10px 1px #4F565A;
+}
+
+.formularioDeContacto__titulo {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #4F565A;
+  margin-top: 2%;
+}
+
+.formularioDeContacto__p {
+  width: 80%;
+  text-align: left;
+  padding: 1rem 0 0.5rem 0;
+  display: block;
+  margin: auto;
+}
+
+.formularioDeContacto__inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputs {
+  font-family: 'Poppins', sans-serif;
+  width: 75%;
+  margin: 0.5rem 0;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  resize: none;
+}
+
+.inputs:focus {
+  border: 2px solid #FFB81C;
+  outline: none;
+}
+
+.check {
+  cursor: pointer;
+  margin-left: 15%;
+}
+
+.formularioDeContacto__checkbox {
+  display: flex;
+  align-self: flex-start;
+  font-size: 0.8rem;
+  width: 100%;
+  cursor: pointer;
+}
+
+.btnEnviar {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  margin: 2% 0 3% 0;
+  padding: 0.5rem;
+  font-weight: bold;
+  width: 30%;
+  border-radius: 5px;
+  border-color: #4F565A;
+  color: #4F565A;
+  cursor: pointer;
+  background-color: #FFB81C;
+}
+
+.btnEnviar:hover {
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+
+/*información Del Desarrollador*/
+.desarrollador__titulo {
+  font-family: 'Iceberg', cursive;
+  font-size: 3rem;
+  text-align: center;
+  background-color: #FFB81C;
+  padding: 1% 0;
+  color: #4F565A;
+}
+
+.informacionDesarrollador {
+  font-family: 'Poppins', sans-serif;
+  width: 50%;
+  background-color: #D7D7D7;
+  border: 2px solid #4F565A;
+  border-radius: 10px;
+  overflow-wrap: break-word;
+  padding-right: 2%;
+  margin-bottom: 2%;
+  box-shadow: 0px 3px 10px 1px #4F565A;
+}
+
+.informacionDesarrollador__titulo {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #4F565A;
+  margin-top: 3%;
+}
+
+.informacionDesarrollador__lista {
+  list-style: none;
+}
+
+.lista-iconos {
+  margin-right: 5%;
+  margin-top: 1.5rem;
+  color: #000000;
+  font-size: 1.5rem;
+}
+
+.lista-items {
+  font-weight: bold;
+  margin-left: 5%;
+  color: #4F565A;
+
+}
+
+.lista-items__p {
+  margin-left: 18%;
+  font-size: 1rem;
+}
+
+.sitioWeb {
+  cursor: pointer;
+}
+.politica {
+  cursor: pointer;
+}
+
+.redesSociales {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.redesSociales i {
+  color: #000000;
+  font-size: 2rem;
+  margin: 0 2rem;
+}
+
+.redesSociales i:hover {
+  color: #FFB81C;
+}
+
+.btnVerMas {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  margin: 0.5rem 0 2rem 0;
+  padding: 0.5rem;
+  font-weight: bold;
+  width: 30%;
+  border-radius: 5px;
+  border-color: #4F565A;
+  color: #4F565A;
+  cursor: pointer;
+  background-color: #FFB81C;
+  display: block;
+  margin: auto;
+}
+
+.btnVerMas:hover {
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+
+.verMas {
+  margin: 3% 0 5% 0%;
+}
+
+.verMas a {
+  color: #4F565A;
+  font-weight: 420;
+  text-decoration: none;
+}
+
+.collage {
+  width: 100%;
+  margin-top: 0.5rem;
+}
+
+/*FOOTER*/
+.copyright {
+  font-family: 'Poppins', sans-serif;
+  color:#4F565A;
+  font-weight: 600;
+  background-color: #FFB81C;
+  text-align: center;
+  padding: 1rem;
+}
+
+
+
+/*a {
+  text-decoration: none;
+  padding: 2px 1px 0;
+  outline: none;
+}
+  
+a:link {
+  color: #265301;
+  }
+  
+  a:visited {
+    color: #437A16;
+  }
+  
+  a:focus {
+    border-bottom: 1px solid;
+    background: #BAE498;
+  }
+  
+  a:hover {
+    border-bottom: 1px solid;
+    background: #CDFEAA;
+  }
+  
+  a:active {
+    background: #265301;
+    color: #CDFEAA;
+  }*/
